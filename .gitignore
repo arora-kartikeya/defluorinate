@@ -1,0 +1,17 @@
+output/
+inputs/
+*.npz
+*.npy
+*.qpy
+*.csv
+*.json
+*.png
+*.svg
+*.pdf
+*.pptx
+*.sdf
+*.xyz
+__pycache__/
+.pytest_cache/
+*.egg-info/
+.DS_Store

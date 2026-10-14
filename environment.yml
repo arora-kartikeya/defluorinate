@@ -1,0 +1,19 @@
+name: defluorinate
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - numpy=2.4
+  - scipy=1.17
+  - pyscf=2.14
+  - matplotlib=3.11
+  - psutil
+  - pytest
+  - pip
+  - pip:
+      - qiskit==2.5.2
+      - qiskit-aer==0.17.2
+      - qiskit-addon-sqd==0.14.0
+      - qiskit-ibm-runtime==0.50.0
+      - ffsim==0.0.84
