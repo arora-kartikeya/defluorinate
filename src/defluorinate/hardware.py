@@ -1,7 +1,4 @@
 """Explicit-instance Runtime jobs, bound to reviewed circuits and resource limits.
-
-Planning is read-only on IBM. Submission is a separate command and requires the
-SHA-256 of the exact reviewed manifest. No account, instance, or approval is bundled.
 """
 
 from pathlib import Path
